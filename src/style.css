@@ -1,4 +1,6 @@
-h1 {
-  color: blue;
-  text-align: center;
+:root {
+  --primary-color: #5957b1;
+  --accent-color: #cde2f5;
+  --text-color: #444651;
+  --background-color: #fbfaf9;
 }
