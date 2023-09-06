@@ -4,3 +4,17 @@
   --text-color: #444651;
   --background-color: #fbfaf9;
 }
+
+#footer-list {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  margin: 20px;
+}
