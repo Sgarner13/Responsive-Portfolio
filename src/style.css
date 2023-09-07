@@ -3,6 +3,35 @@
   --accent-color: #cde2f5;
   --text-color: #444651;
   --background-color: #fbfaf9;
+  --decorative-font: "Yeseva One", cursive;
+  --paragraph-font: "Josefin Sans", sans-serif;
+}
+body {
+  font-family: var(--paragraph-font);
+  color: var(--text-color);
+}
+.hero {
+  margin-top: 95px;
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 50px;
+  color: var(--primary-color);
+}
+
+h1,
+h3 {
+  font-family: var(--decorative-font);
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 45px;
+  font-family: var(--paragraph-font);
 }
 
 #footer-list {
