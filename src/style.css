@@ -6,10 +6,12 @@
   --decorative-font: "Yeseva One", cursive;
   --paragraph-font: "Josefin Sans", sans-serif;
 }
+
 body {
   font-family: var(--paragraph-font);
   color: var(--text-color);
 }
+
 .hero {
   margin-top: 95px;
   background-color: var(--background-color);
@@ -76,20 +78,39 @@ h2 {
     display: flex;
     justify-content: center;
   }
+  #footer-list {
+    padding: 5px;
+    margin-top: 5px;
+  }
 }
 
 #footer-list {
+  background: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 45px;
+  padding: 40px;
+}
+
+.contact {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 ul {
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 
 li {
   list-style: none;
   margin: 20px;
   text-align: center;
+}
+
+.icon-description {
+  margin-top: 15px;
 }
