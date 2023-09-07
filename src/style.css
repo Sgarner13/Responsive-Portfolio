@@ -20,6 +20,11 @@ body {
   margin-bottom: 50px;
   color: var(--primary-color);
 }
+.content-container {
+  margin-top: 95px;
+  text-align: center;
+  padding: 50px;
+}
 
 h1,
 h3 {
@@ -36,6 +41,15 @@ h2 {
   font-size: 45px;
   font-family: var(--paragraph-font);
   margin: 0;
+}
+
+.project-row {
+  display: flex;
+  align-items: first baseline;
+}
+
+.project-description {
+  margin-top: 20px;
 }
 
 .btn-branding {
