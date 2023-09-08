@@ -144,3 +144,25 @@ li {
   justify-content: center;
   margin-bottom: 50px;
 }
+.contact-description {
+  margin-top: 15px;
+}
+.contact-link,
+.contact-icon {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: var(--background-color);
+  background: var(--primary-color);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.contact-icon:hover {
+  color: var(--background-color);
+  background: var(--primary-color);
+  padding: 15px;
+  border-radius: 50px;
+}
