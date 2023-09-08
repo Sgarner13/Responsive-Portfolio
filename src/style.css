@@ -11,6 +11,21 @@ body {
   font-family: var(--paragraph-font);
   color: var(--text-color);
 }
+.navbar {
+  background-color: var(--accent-color) !important;
+  --bs-navbar-brand-color: var(--primary-color);
+  --bs-navbar-color: var(--background-color);
+  --bs-navbar-disabled-color: rgba(var(--background-color), 0.3)
+  --bs-navbar-hover-color: rgba(var(--background-color), 0.8);
+  --bs-navbar-toggler-border-color: var(--primary-color);
+  --bs-navbar-active-color: var(--primary-color);
+  --bs-navbar-brand-hover-color: var(--accent-color);
+  justify-content: end;
+
+}
+.navbar-nav{
+--bs-nav-link-hover-color: var(--primary-color);
+}
 
 .hero {
   margin-top: 95px;
