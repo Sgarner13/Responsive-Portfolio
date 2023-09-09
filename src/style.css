@@ -113,6 +113,11 @@ h2 {
   color:var(--primary-color);
   text-decoration: none;
   margin: 25px;
+  transition: all 125ms ease-in-out;
+}
+
+.footer-icon:hover{
+  color:var(--accent-color);
 }
 
 .contact {
@@ -150,18 +155,17 @@ li {
 .contact-icon {
   color: var(--primary-color);
   text-decoration: none;
+  transition: all 125ms ease-in-out;
 }
 
 .contact-link:hover {
-  color: var(--background-color);
-  background: var(--primary-color);
-  padding: 10px;
-  border-radius: 50px;
+  color: var(--accent-color);
+  font-size:24px;
 }
 
 .contact-icon:hover {
   color: var(--background-color);
-  background: var(--primary-color);
+  background: var(--accent-color);
   padding: 15px;
   border-radius: 50px;
 }
