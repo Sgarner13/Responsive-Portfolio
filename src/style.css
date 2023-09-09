@@ -135,7 +135,6 @@ ul {
 
 li {
   list-style: none;
-  margin: 20px;
   text-align: center;
 }
 
@@ -173,6 +172,7 @@ li {
 .open-source{
   font-size: 14px;
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 @media (max-width: 767.98px) {
@@ -193,8 +193,21 @@ li {
     display: flex;
     justify-content: center;
   }
+
+  .contact-link,
+.contact-icon {
+  font-size:12px;
+  text-align:center;
+}
+  .contact-link:hover {
+  font-size:14px;
+  text-align:center;
+}
   #footer-list {
-    padding: 5px;
     margin-top: 5px;
+  }
+
+  .footer-icons{
+    font-size: 12px
   }
 }
