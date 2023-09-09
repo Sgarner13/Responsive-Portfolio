@@ -26,6 +26,9 @@ body {
 .navbar-nav{
 --bs-nav-link-hover-color: var(--primary-color);
 }
+.navbar-brand:hover{
+  color:var(--background-color);
+}
 
 .hero {
   margin-top: 95px;
